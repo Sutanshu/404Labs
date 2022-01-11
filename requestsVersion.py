@@ -1,7 +1,4 @@
 from requests import get
-import requests
 
-# print(requests.__version__)
-
-r = requests.get("https://www.google.com/")
-print(r)
+script = get("https://raw.githubusercontent.com/Sutanshu/404Labs/master/requestsVersion.py")
+print(script.text)
